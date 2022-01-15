@@ -1,11 +1,47 @@
-#background-video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
+html {
+    background-color: rgb(226, 199, 162);
+    background: url(https://wallpaperaccess.com/full/4425998.png) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1 {
+    color: white;
+    background-color: rgb(226, 199, 162);
+    margin-left: 300px;
+    margin-right: 300px;
+    opacity: 0.75;
+    text-align: center;
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div#intro h2 {
+    color: rgb(59, 27, 27);
+    text-align: center;
+    opacity: 0.75;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 45px;
+    background-color: rgb(230, 176, 185);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+div#intro p {
+    color: rgb(59, 27, 27);
+    text-align: center;
+    opacity: 0.75;
+    margin-left: 400px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 400px;
+    background-color:rgb(226, 199, 162);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+div#aboutMe {
+    color: white;
+    text-align: left;
+    opacity: 0.95;
+    margin: 0px auto;
+    padding-top: 20px;
+    font-size: 20px;
 }
