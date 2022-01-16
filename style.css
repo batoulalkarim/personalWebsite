@@ -1,47 +1,57 @@
-html {
-    background-color: rgb(226, 199, 162);
-    background: url(https://wallpaperaccess.com/full/4425998.png) center no-repeat;
+
+body, html {
+    height: 100%;
+}
+.container {
+    height: 100%;
+}
+
+.bg {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    background-attachment: fixed;
+ }
+.image1 {
+    background-image: url("https://media.istockphoto.com/photos/mont-blanc-picture-id155372434?b=1&k=20&m=155372434&s=170667a&w=0&h=9ObhkTP_xUBw5hLG26bcSwaHavTJ1P3Wl1PMp5mLBJM=");
+    height: 100;
+    overflow:hidden;
+
+}
+.image2 {
+    background-image: url("https://spectrum.ieee.org/media-library/earth-in-space.jpg?id=27044580&width=1200&coordinates=0%2C155%2C0%2C155&height=600");
+    height: 100;
+    overflow:hidden;
 }
 h1 {
     color: white;
-    background-color: rgb(226, 199, 162);
-    margin-left: 300px;
-    margin-right: 300px;
-    opacity: 0.75;
-    text-align: center;
-    font-size: 75px;
+    padding-top: 100px;
+    padding-right: 650px;
+    font-size: 65px;
+    text-shadow:tomato;
+    letter-spacing: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-div#intro h2 {
-    color: rgb(59, 27, 27);
-    text-align: center;
-    opacity: 0.75;
-    margin-left: 400px;
-    margin-right: 400px;
-    font-size: 45px;
-    background-color: rgb(230, 176, 185);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-}
-div#intro p {
-    color: rgb(59, 27, 27);
-    text-align: center;
-    opacity: 0.75;
-    margin-left: 400px;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-right: 400px;
-    background-color:rgb(226, 199, 162);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   
-}
-div#aboutMe {
+h2 {
     color: white;
-    text-align: left;
-    opacity: 0.95;
-    margin: 0px auto;
-    padding-top: 20px;
-    font-size: 20px;
+    letter-spacing: 10px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text p {
+    color: rgb(226, 247, 187);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    font-size: 26px;
+    text-align: right;
+}
+h4 {
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.socialMedia {
+    color:white;
+    text-align: center;
+    letter-spacing: 20px;
 }
