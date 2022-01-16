@@ -5,7 +5,15 @@ body, html {
 .container {
     height: 100%;
 }
-
+a{
+    color: rgb(226, 247, 187);
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: rgb(145, 145, 248);
+}
 .bg {
     height: 100%;
     background-position: center;
@@ -24,6 +32,39 @@ body, html {
     height: 100;
     overflow:hidden;
 }
+.image3 {
+    background-image: url("/Users/batoulalkarim/Downloads/zac-ong-JHN1-mpgXjo-unsplash.jpg");
+    height: 100%;
+    overflow: hidden;
+}
+.image3 h2 {
+    color: blue;
+}
+.image4 {
+    background-image: url("/Users/batoulalkarim/Downloads/pexels-roberto-nickson-2525903.jpg");
+    height: 100%;
+    overflow: hidden;
+}
+.image5 {
+    background-image: url("/Users/batoulalkarim/Downloads/pexels-eberhard-grossgasteiger-1421903.jpg");
+    height: 100%;
+    overflow: hidden;
+}
+ #left{
+    text-align: left;
+    color: rgb(226, 247, 187);
+    font-size: 20px;
+    margin-right: 950px;
+    margin-left: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(50, 50, 112);
+}
+ul {
+    color: white;
+    letter-spacing: 5px;
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h1 {
     color: white;
     padding-top: 100px;
@@ -39,7 +80,7 @@ h2 {
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.text p {
+h3 {
     color: rgb(226, 247, 187);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 5px;
@@ -54,4 +95,17 @@ h4 {
     color:white;
     text-align: center;
     letter-spacing: 20px;
+}
+#pageLay {
+    color: white;
+    text-align: center;
+}
+#homeHead {
+    text-align: left;
+}
+#homeP {
+    color: white;
+    margin-right: 250px;
+    margin-left: 40px;
+    background-color: black;
 }
